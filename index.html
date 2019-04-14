@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet"> </head>
+</head>
+
+
+<body background="assets/images/synthwave.jpg">
+    <div><<iframe style="border: 0; width: 30%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2886736507/size=small/bgcol=333333/linkcol=e99708/track=3652949907/transparent=true/" seamless><a href="http://gunshipmusic.bandcamp.com/album/dark-all-day">Dark All Day by GUNSHIP</a></iframe></div>
+  <main>
+  <h1 class="glow">Guess the Word</h1> 
+    <div class="container">
+         <div class="middle">  
+            <p class= "glow" id="answerWord"> </p>
+          <div class="gif">
+              <iframe id="giphy-embed" src="" frameBorder="0" ></iframe>
+          </div>
+      </div>
+      <div class="left side">
+          <div class="wins">
+              <h2>Wins</h2>
+              <p id="numWins"></p>
+          </div>
+          <div class="losses">
+              <h2>Losses</h2>
+              <p id="numLosses"></p>
+          </div>
+      </div>
+      <div class="right side">
+          <h3><span id="numGuesses"></span> lives remaining</h3>
+          <h2>Guessed Letters</h2>
+          <p id="guessedLetters"></p>
+      </div>
+  </div>
+</main>
+</body>
+
+<footer>
+<script src="assets/javascript/game.js"></script>
+

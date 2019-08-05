@@ -12,6 +12,6 @@ Guess the correct word and earn a win point!
    - check to see the wrong guesses you already made at the bottom to narrow down your choices
   
 **Tools/Languages Used:**
-    -- Javascript 
-    -- HTML/CSS 
-    -- GoogleFonts
+    - Javascript 
+    - HTML/CSS 
+    - GoogleFonts
